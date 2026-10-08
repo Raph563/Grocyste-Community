@@ -1,0 +1,9 @@
+[project]
+name = "grocyste-community"
+version = "1.0.0"
+requires-python = ">=3.12"
+license = "GPL-3.0-or-later"
+description = "Partage modéré de produits, recettes et packs pour Grocyste et Grocy"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

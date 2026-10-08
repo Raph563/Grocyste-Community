@@ -1,0 +1,11 @@
+.git
+.venv
+node_modules
+__pycache__
+.pytest_cache
+state
+private
+*.key
+*.db
+*.env
+reports

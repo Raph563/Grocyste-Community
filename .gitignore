@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+state/
+reports/
+node_modules/
+*.key
+*.db
+*.sqlite*
+*.pem
+*.log
+private/
