@@ -228,7 +228,7 @@ def create_app(config=None):
 
     @app.get('/assets/<path:name>')
     def assets(name):
-        if name not in ('app.mjs','app.css'):raise Error('Ressource inconnue',404)
+        if name not in ('app.mjs','app.css','recipe-import-link.mjs'):raise Error('Ressource inconnue',404)
         return send_from_directory(service.config['WEB_DIR'],name)
 
     @app.get('/')
